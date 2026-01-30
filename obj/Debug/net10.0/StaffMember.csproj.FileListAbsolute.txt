@@ -12,3 +12,4 @@ C:\Coding\C#\StaffMember\obj\Debug\net10.0\refint\StaffMember.dll
 C:\Coding\C#\StaffMember\obj\Debug\net10.0\StaffMember.pdb
 C:\Coding\C#\StaffMember\obj\Debug\net10.0\StaffMember.genruntimeconfig.cache
 C:\Coding\C#\StaffMember\obj\Debug\net10.0\ref\StaffMember.dll
+C:\Coding\C#\StaffMember\obj\Debug\net10.0\StaffMember.sourcelink.json
