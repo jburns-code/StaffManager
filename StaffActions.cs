@@ -78,19 +78,19 @@ namespace StaffManager
                 return;
             }
 
-            Console.WriteLine($"Are you sure you want to delete {StaffToRemove.Name}?");
+            Console.WriteLine($"\n********\nAre you sure you want to delete {StaffToRemove.Name}?\n********");
             Console.WriteLine("1. Yes");
             Console.WriteLine("2. No");
             string confirm = Console.ReadLine();
 
             if (confirm != "1")
             {
-                Console.WriteLine("Deletion cancelled.");
+                Console.WriteLine("\nDeletion cancelled.");
                 return;
             }
 
             staffList.Remove(StaffToRemove);
-            Console.WriteLine("Staff member removed.");
+            Console.WriteLine("\nStaff member removed.");
         }
     }
 }

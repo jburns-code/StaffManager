@@ -17,7 +17,7 @@ namespace StaffManager
                 Console.WriteLine("\n--- Staff Manager ---");
                 Console.WriteLine("1. Add staff");
                 Console.WriteLine("2. List staff");
-                Console.WriteLine("3. Edit staff member");
+                Console.WriteLine("3. Edit staff");
                 Console.WriteLine("4. Exit");
                 Console.Write("Choose an option: ");
     
@@ -48,7 +48,7 @@ namespace StaffManager
                     staffList.Add(staff);
                     nextId++;
 
-                    Console.WriteLine("Staff added.");
+                    Console.WriteLine("\nStaff added.");
                     continue;
                 }
 
