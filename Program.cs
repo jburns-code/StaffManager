@@ -74,12 +74,12 @@ namespace StaffManager
 
                     if (SecondEditChoice == "1")
                     {
-                        StaffService.EditStaff(staffList);
+                        StaffActions.EditStaff(staffList);
                     } 
 
                     else if (SecondEditChoice == "2") 
                     {
-                        StaffService.RemoveStaff(staffList);
+                        StaffActions.RemoveStaff(staffList);
                     }
                 }
 
