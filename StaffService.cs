@@ -4,7 +4,7 @@ using System.Net;
 
 namespace StaffManager
 {
-    class StaffActions
+    class StaffService
     {
         public static void EditStaff(List<Staff> staffList)
         {

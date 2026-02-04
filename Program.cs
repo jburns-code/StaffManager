@@ -20,9 +20,7 @@ namespace StaffManager
                 Console.WriteLine("3. Edit staff");
                 Console.WriteLine("4. Exit");
                 Console.Write("Choose an option: ");
-    
                 string Choice = Console.ReadLine();
-                string EditChoice = null;
 
                 if (string.IsNullOrWhiteSpace(Choice))
                 {
@@ -76,12 +74,12 @@ namespace StaffManager
 
                     if (SecondEditChoice == "1")
                     {
-                        StaffActions.EditStaff(staffList);
+                        StaffService.EditStaff(staffList);
                     } 
 
                     else if (SecondEditChoice == "2") 
                     {
-                        StaffActions.RemoveStaff(staffList);
+                        StaffService.RemoveStaff(staffList);
                     }
                 }
 
